@@ -1,7 +1,7 @@
 var playlist = { Gershwin: "April in Paris" };
 
 function updatePlaylist(playlist, artistName, songTitle) {
-    playlist.artistName = songTitle;
+    playlist[artistName] = songTitle;
     return playlist;
 }
 
